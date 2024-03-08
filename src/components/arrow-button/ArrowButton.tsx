@@ -10,11 +10,6 @@ export type ArrowButtonProps = {
 	isOpen?: boolean; // Флаг, указывающий, открыт ли сайдбар
 };
 export const ArrowButton = ({ onClick, isOpen }: ArrowButtonProps) => {
-	// const [isOpen, setIsOpen]=useState<boolean>(false);
-	// const handleArrow = ()=>{
-	// 	onClick?.();
-	// 	setIsOpen(!isOpen);
-	// }
 	return (
 		/* Не забываем указаывать role и aria-label атрибуты для интерактивных элементов */
 		<div
