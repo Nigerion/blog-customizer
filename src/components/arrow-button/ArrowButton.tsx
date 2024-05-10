@@ -1,7 +1,5 @@
 import arrow from 'src/images/arrow.svg';
-
 import styles from './ArrowButton.module.scss';
-// import { useState } from 'react';
 import clsx from 'clsx';
 
 /** Функция для обработки открытия/закрытия формы */
@@ -10,11 +8,6 @@ export type ArrowButtonProps = {
 	isOpen?: boolean; // Флаг, указывающий, открыт ли сайдбар
 };
 export const ArrowButton = ({ onClick, isOpen }: ArrowButtonProps) => {
-	// const [isOpen, setIsOpen]=useState<boolean>(false);
-	// const handleArrow = ()=>{
-	// 	onClick?.();
-	// 	setIsOpen(!isOpen);
-	// }
 	return (
 		/* Не забываем указаывать role и aria-label атрибуты для интерактивных элементов */
 		<div
